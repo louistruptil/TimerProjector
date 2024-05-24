@@ -1,0 +1,9 @@
+.Footer {
+  position: absolute;
+  overflow: hidden;
+  font-size: 35px;
+  z-index: 2;
+  color: white;
+  top: 92%;
+  left: 90%;
+}
