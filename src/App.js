@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
         <ThemeProvider>
+            <Background />
             <Settings />
             <Clock />
-            <Background />
             <Footer />
         </ThemeProvider>
     </div>
