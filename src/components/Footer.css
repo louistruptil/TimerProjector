@@ -1,9 +1,15 @@
 .Footer {
-  position: absolute;
-  overflow: hidden;
-  font-size: 35px;
+  position: fixed;
+  font-size: 1vw; /* Adjust as needed */
   z-index: 2;
   color: white;
-  top: 85%;
-  left: 88%;
+  bottom: 0;
+  right: 0;
+}
+
+/* Adjust the font size for viewports smaller than 768px */
+@media (max-width: 768px) {
+  .Footer {
+    font-size: 12px; /* Adjust as needed */
+  }
 }
