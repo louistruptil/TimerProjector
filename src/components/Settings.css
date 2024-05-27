@@ -61,10 +61,17 @@
 .colorPickerContainer {
   display: flex;
   align-items: center;
-  margin-left: 40%;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .colorPickerContainer {
+     margin-top: 20vw;
+  }
 }
 
 .colorPickerText {
+  font-size: calc(1vw + 6vmin);
   z-index: 2;
   position: relative;
   vertical-align: middle;
@@ -72,8 +79,8 @@
 
 .colorPicker {
   appearance: none;
-  width: 120px;
-  height: 120px;
+  width: 10vh;
+  height: 10vh;
   border: none;
   cursor: pointer;
   background: transparent;

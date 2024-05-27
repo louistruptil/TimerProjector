@@ -1,5 +1,5 @@
 .Clock  {
-  font-size: calc(6vw + 6vmin);
+  font-size: 10vw;
   font-weight: bolder;
   display: flex;
   justify-content: center;
@@ -10,4 +10,10 @@
   transform: translate(-50%, -50%);
   z-index: 3;
   color: var(--clock-color, black);
+}
+
+@media (max-width: 768px) {
+  .Clock {
+    font-size: 16vw;
+  }
 }

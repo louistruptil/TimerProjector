@@ -1,15 +1,15 @@
 .Footer {
   position: fixed;
-  font-size: 1vw; /* Adjust as needed */
+  font-size: 1vw;
   z-index: 2;
   color: white;
   bottom: 0;
   right: 0;
+  margin-right: 10px;
 }
 
-/* Adjust the font size for viewports smaller than 768px */
 @media (max-width: 768px) {
   .Footer {
-    font-size: 12px; /* Adjust as needed */
+    font-size: 12px;
   }
 }
